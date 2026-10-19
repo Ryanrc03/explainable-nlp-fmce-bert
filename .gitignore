@@ -1,0 +1,33 @@
+# Python and Jupyter
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.venv/
+venv/
+.env
+.env.*
+!.env.example
+
+# Generated datasets and model weights
+*.npy
+*.npz
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.bin
+*.h5
+*.parquet
+*.arrow
+checkpoint*/
+epoch_[0-9]*/
+BERT*_ckpts*/
+FMCE_dataset*/
+
+# Local caches and logs
+.cache/
+wandb/
+runs/
+logs/
+*.log
+.DS_Store

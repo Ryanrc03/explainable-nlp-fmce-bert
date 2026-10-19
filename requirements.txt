@@ -1,0 +1,11 @@
+numpy
+torch
+transformers>=4.44.0
+datasets>=2.19.0
+accelerate>=0.34.0
+evaluate>=0.4.1
+scipy
+matplotlib
+scikit-learn
+tqdm
+jupyter
